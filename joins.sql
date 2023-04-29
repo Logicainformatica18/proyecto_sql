@@ -3,7 +3,7 @@ select * from Categorias
 select * from Articulos
 
 -- inner join 
-select * from Articulos a  inner join   Categorias c
+select * from Articulos a  inner join   Categoria c
 on a.Categ = c.Categoria 
 -- right join (full)
 select * from Articulos a  right join   Categorias c
